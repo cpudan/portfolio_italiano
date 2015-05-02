@@ -653,6 +653,7 @@
 		position: relative;
 		overflow: hidden;
 		background: #fff;
+		color: red;
 	}
 	
 	#footer-wrapper
@@ -661,7 +662,7 @@
 		overflow: hidden;
 		border-top: solid 2px #e5e5e5;
 		background: #CC0000;
-		color: #009933;
+		color: white;
 	}
 	
 	/*	#footer-wrapper form input[type="text"],
@@ -682,15 +683,16 @@
 			{
 				background: #fff;
 			}
-		
+
 		#footer-wrapper h2
 		{
 			text-align: center;
 		}
-	#footer h1, h2, a, li
+	#footer/* h1, h2, a, li*/
 	{
 		text-align: left;
-		color: #006600;
+		/*color: #006600;*/
+		color: white;
 		border: 0.01em;
 	}
 
@@ -703,6 +705,10 @@
 	{
 		padding-left: 2em;
 		padding-right: 2em;
+	}
+	#footer h1, p, a, h2, section p
+	{
+		color: white;
 	}
 
 /*********************************************************************************/
@@ -843,8 +849,9 @@
 /* Content                                                                       */
 /*********************************************************************************/
 	
-	#content
+	#content h2, p
 	{
+		color: black;
 	}
 
 		#content > section,
@@ -891,4 +898,5 @@
 	{
 		border-top: solid 2px #e5e5e5;
 		text-align: center;
+		color:  #006600;
 	}

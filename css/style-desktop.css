@@ -264,6 +264,7 @@
 			border: 0;
 			border-top: solid 1px #f0f0f0;
 			outline: 0;
+			color: gray;
 		}
 
 		.dropotron li:first-child > span,
@@ -272,7 +273,7 @@
 			border-top: 0;
 			padding-top: 0;
 		}
-		
+
 		.dropotron li:hover > span,
 		.dropotron li:hover > a
 		{
