@@ -867,6 +867,10 @@
 				border-top: 0;
 				box-shadow: none;
 			}
+			#content > article > iframe
+			{
+				margin-left: 8em;
+			}
 	
 /*********************************************************************************/
 /* Sidebar                                                                       */

@@ -173,13 +173,13 @@
 		top: 3em;
 		left: 0;
 		width: 100%;
-		font-size: 1.2em;
+		font-size: 1em;
 	}
 
 		#nav > ul > li
 		{
 			display: inline-block;
-			padding-right: 2em;
+			padding-right: 0.5em;
 		}
 		
 			#nav > ul > li:last-child
