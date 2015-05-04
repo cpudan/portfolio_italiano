@@ -881,7 +881,8 @@
 			}
 			#content > article > iframe
 			{
-				margin-left: 32px;
+				margin-left: 12px;
+				/*right: auto;*/
 			}
 			#content article li, article ul
 			{
