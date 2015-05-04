@@ -87,7 +87,7 @@
 
 	/* Box */
 
-		.box
+/*		.box
 		{
 		}
 
@@ -111,7 +111,7 @@
 					letter-spacing: 2px;
 					padding: 0.25em 1em 0.25em 1em;
 					margin: 0 0 2.5em 0;
-				}
+				}*/
 
 /*********************************************************************************/
 /* Wrappers                                                                      */
@@ -133,7 +133,8 @@
 	
 	#main-wrapper
 	{
-		padding: 6em 0 6em 0;
+		padding: 1em 0 1em 0;
+		text-align: center;
 	}
 	
 	#footer-wrapper
@@ -147,7 +148,7 @@
 
 	#header
 	{
-		padding: 14em 0 7em 0;
+		padding: 10em 0 7em 0;
 	}
 	
 		#header h1
@@ -336,6 +337,8 @@
 	
 	#content
 	{
+		margin-left: 20%;
+		margin-right: auto;
 	}
 
 		#content > section,
@@ -356,7 +359,7 @@
 /* Sidebar                                                                       */
 /*********************************************************************************/
 	
-	#sidebar
+	/*#sidebar
 	{
 	}
 
@@ -372,7 +375,7 @@
 		{
 			margin: 0;
 			padding: 0;
-		}
+		}*/
 
 /*********************************************************************************/
 /* Copyright                                                                     */

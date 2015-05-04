@@ -751,6 +751,12 @@
 	{
 		cursor: default;
 	}
+		#nav > ul
+		{
+			padding-top: 0px;
+			padding-bottom: 0px;
+			margin-bottom: 0px;
+		}
 
 		#nav > ul > li
 		{
@@ -764,6 +770,7 @@
 				font-weight: 400;
 				color: #880a06;
 				outline: 0;
+				position: relative;
 			}
 
 				#nav > ul > li > a:before
@@ -807,14 +814,14 @@
 					#nav > ul > li.active > a:before,
 					#nav > ul > li:hover > a:before
 					{
-						background: #ED786A;
+						background: white;
 						color: #fff;
 					}
 			
 					#nav > ul > li.active > a > span,
 					#nav > ul > li:hover > a > span
 					{
-						color: #ED786A;
+						color: white;
 					}
 
 /*********************************************************************************/
@@ -860,6 +867,10 @@
 		{
 			border-top: solid 2px #e5e5e5;
 			box-shadow: inset 0px 8px 0px 0px #fff, inset 0px 10px 0px 0px #e5e5e5;
+			text-align: center;
+			display: inline-block;
+			margin-left: auto;
+			margin-right: auto;
 		}
 
 			#content > section:first-child,
@@ -878,6 +889,19 @@
 				padding-bottom: 12px;
 				padding-left: 16px;
 			}
+			#content article img
+			{
+				width: 400px;
+				height: 561px;
+				/*margin-left: 25%;
+				display: inline-block;
+				text-align: center;*/
+			}
+		article.box.post
+		{
+			margin-left: auto;
+			margin-right: auto;
+		}
 	
 /*********************************************************************************/
 /* Sidebar                                                                       */
